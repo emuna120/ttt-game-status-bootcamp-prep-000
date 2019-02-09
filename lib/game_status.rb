@@ -41,6 +41,10 @@ def draw?(board)
   full?(board) && won?(board) == nil
 end
 
+def over?(board)
+  
+end  
+
 def winner?(board)
   
 end  
