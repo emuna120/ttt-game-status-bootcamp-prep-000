@@ -24,7 +24,7 @@ def won?(board)
        winner << board[combination[0]]
     end   
   end
-  win_combination.length == 1 || (win_combination == 2 && winner[0] == winner[1])? win_combination[0] : nil
+  win_combination.length == 1 || (win_combination.length == 2 && winner[0] == winner[1])? win_combination[0] : nil
 end
 
 def full?(board)
